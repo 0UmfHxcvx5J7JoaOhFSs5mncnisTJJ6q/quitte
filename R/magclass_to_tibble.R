@@ -15,7 +15,7 @@
 #' @importFrom tidyselect all_of
 #'
 #' @examples
-#' \donttest{magclass_to_tibble(magclass::maxample('pop'))}
+#' magclass_to_tibble(magclass::maxample('pop'))
 
 #' @export
 magclass_to_tibble <- function(m, colnames = NULL) {
